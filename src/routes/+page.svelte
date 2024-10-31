@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import AnimatedFooter from '../components/Footer/AnimatedFooter.svelte';
+	import Hero from '../components/Hero.svelte';
+</script>
+
+<div class="mx-auto mt-[12.5rem] flex max-w-xl px-3 ">
+	<Hero />
+</div>
+
+<AnimatedFooter />

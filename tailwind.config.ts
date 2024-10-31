@@ -4,6 +4,9 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
+		screens: {
+			"mobile": "460px",
+		},
 		extend: {}
 	},
 

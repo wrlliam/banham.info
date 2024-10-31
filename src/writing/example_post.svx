@@ -1,0 +1,12 @@
+---
+name: "Example post, come back another day 🧹"
+description: "Not too sure what to write about so enjoy this blank page kinda?."
+date: "31/10/2024"
+visable: true
+---
+
+<script>
+    import Counter from "../components/posts/RandomCounter.svelte"
+</script>
+
+<Counter/>

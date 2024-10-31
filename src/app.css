@@ -1,3 +1,32 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@font-face {
+	font-family: 'ABC';
+	src: url(./fonts/ABCMarist-Book-Trial/ABCMarist-Book-Trial.otf);
+}
+
+* {
+	font-family: 'ABC', sans-serif;
+	overflow-x: hidden;
+}
+
+.smooth_transition {
+	transition: 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.smooth_transition_op {
+	transition: opacity 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.smooth_transition_size {
+	transition:
+		height 0.3s cubic-bezier(0.76, 0, 0.24, 1),
+		width 0.3s cubic-bezier(0.76, 0, 0.24, 1),
+		opacity 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.scroll-hidden::-webkit-scrollbar {
+	display: none;
+}
