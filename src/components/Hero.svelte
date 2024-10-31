@@ -52,8 +52,14 @@
 
 	<HeroCategory
 		hoverImg
-		title="Previous Work"
+		title="Previous/Current Work"
 		items={[
+			{
+				name: "banham.info",
+				date: `2024-${year}`,
+				imgURL: `/products/portfolio.png`,
+				about: `Custom build portfolio built with Sveltekit 5, Typescript, TailwindCSS, and Vercel.`
+			},
 			{
 				name: 'Audibly',
 				date: '2024-2024',
